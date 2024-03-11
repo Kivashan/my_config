@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+
+echo "Enter file name: "
+
+read filename
+
+touch $filename
+
+if [[ "$filename" =~ \.py$ ]]
+then
+	echo "#!/usr/bin/py" >> $filename
+	echo "Python script created ..."
+elif [[ "$filename" =~ \.js$ ]]
+then
+	echo "#!/usr/bin/node" >> $filename
+	echo "Javascript script created ..."
+else
+	echo "#!/usr/bin/bash" >> $filename
+	echo "Bash script created ..."
+fi
+
+echo "" >> $filename
+chmod u+x $filename
+echo "File permissions granted to $filename"
