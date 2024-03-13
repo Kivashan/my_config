@@ -1,8 +1,20 @@
-This repository contains configuration files
+<h1 id='top'>Configuration files</h1>
 
-1. pbj_script_maker
+<h2>Description</h2>
+<hr>
+<ol id='table_of_contents'>
+  <li><a href='pbj_script_maker'>bj_script_maker</a></li>
+  <li><a href='readMeGenerator'>readMeGenerator</a></li>
+</ol>
+<hr>
 
-This is a script that generates a python, javascript(node.js) or bash script.
+<h2 id='pbj_script_maker'>PBJ Script Maker</h2>
+<p>This is a script that generates a python, javascript(node.js) or bash script.
 User is prompted for the new file name(including file extension).
 The script then creates a script with the relevant shabang based on file extension.
-The script also gives user execution permissions.
+The script also gives user execution permissions.</p>
+<br>
+<h2 id='readMeGenerator'>ReadMe File Generator</h2>
+A script that generates a template Readme.md file.
+
+<a href='top'>To top</a>
