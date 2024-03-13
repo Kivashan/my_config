@@ -1,6 +1,8 @@
 <h1 id='top'>Configuration files</h1>
 
 <h2>Description</h2>
+<p>This repository contains scripts to set up programming environments and to minimise tasks
+that I encounter frequently. <b>A good programmer is a lazy programmer.</b>
 <hr>
 <ol id='table_of_contents'>
   <li><a href='pbj_script_maker'>bj_script_maker</a></li>
@@ -16,5 +18,5 @@ The script also gives user execution permissions.</p>
 <br>
 <h2 id='readMeGenerator'>ReadMe File Generator</h2>
 A script that generates a template Readme.md file.
-
+<br>
 <a href='top'>To top</a>
