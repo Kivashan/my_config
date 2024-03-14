@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+rm ~/.vimrc
+touch ~/.vimrc
+
+echo "set number" >> ~/.vimrc
+echo "set cursorline" >> ~/.vimrc
+echo "set tabstop=2" >> ~/.vimrc
+echo "set expandtab" >> ~/.vimrc
