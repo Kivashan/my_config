@@ -5,8 +5,9 @@
 that I encounter frequently. <b>A good programmer is a lazy programmer.</b>
 <hr>
 <ol id='table_of_contents'>
-  <li><a href='pbj_script_maker'>bj_script_maker</a></li>
-  <li><a href='readMeGenerator'>readMeGenerator</a></li>
+  <li><a href='#pbj_script_maker'>bj_script_maker</a></li>
+  <li><a href='#readMeGenerator'>readMeGenerator</a></li>
+  <li><a href='#vimrcSetUp'>vimrcSetUp</a></li>
 </ol>
 <hr>
 
@@ -17,6 +18,8 @@ The script then creates a script with the relevant shabang based on file extensi
 The script also gives user execution permissions.</p>
 <br>
 <h2 id='readMeGenerator'>ReadMe File Generator</h2>
-A script that generates a template Readme.md file.
+<p>A script that generates a template Readme.md file.</p>
 <br>
+<h2 id='vimrcSetUp'>.vimrc Setup</h2>
+<p>A script that configures a .vimrc file with my preferences</p>
 <a href='top'>To top</a>
